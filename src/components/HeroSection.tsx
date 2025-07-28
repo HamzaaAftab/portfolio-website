@@ -163,7 +163,7 @@ const HeroSection: React.FC = () => {
           className="max-w-xl mx-auto text-gray-300 text-lg md:text-xl mb-10"
           variants={itemVariants}
         >
-          I'm a fullstack developer specializing in building exceptional digital experiences that blend creativity with technical excellence.
+          I am a full-stack developer crafting seamless digital experiences that blend creative design with AI-powered precision — where technology enhances the user journey without getting in the way.
         </motion.p>
         
         <motion.div 

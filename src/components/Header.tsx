@@ -217,7 +217,7 @@ const Header: React.FC = () => {
                 </Button>
               </motion.div>
               
-              {/* Social links */}
+              {/* Social links
               <motion.div
                 className="mt-8 flex justify-center gap-6 border-t border-white/10 pt-6"
                 initial={{ opacity: 0 }}
@@ -235,7 +235,7 @@ const Header: React.FC = () => {
                     {social}
                   </motion.a>
                 ))}
-              </motion.div>
+              </motion.div> */}
             </nav>
           </motion.div>
         )}

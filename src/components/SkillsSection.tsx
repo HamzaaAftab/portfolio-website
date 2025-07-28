@@ -57,10 +57,10 @@ const SkillCard: React.FC<SkillCardProps> = ({ icon, title, description, index }
           {/* Skill level indicator that appears on hover */}
           {isHovered && (
             <motion.div 
-              className="absolute bottom-3 right-3 flex gap-1"
+              className="absolute bottom-0 right-0 flex gap-1"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.3, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
             >
               {[...Array(5)].map((_, i) => (
                 <motion.div 
@@ -124,12 +124,7 @@ const SkillsSection: React.FC = () => {
   {
     icon: "🤖",
     title: "AI Integration",
-    description: "Using AI tools like Langchain to build smart and helpful applications."
-  },
-  {
-    icon: "📱",
-    title: "Mobile Development",
-    description: "Developing cross-platform mobile applications with React Native and Expo."
+    description: "Using AI tools like Langchain, Langgraph to build smart and helpful applications."
   },
   {
     icon: "🧠",

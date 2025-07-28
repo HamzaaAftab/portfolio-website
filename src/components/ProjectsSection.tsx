@@ -76,12 +76,12 @@ const ProjectsSection: React.FC = () => {
       technologies: ["Nextjs", "TypeScript", "Tailwind CSS", "Sanity CMS", "Stripe"]
     },
     {
-      title: "AI Chatbot Assistant",
+      title: "AI Powered Job Recommendation System",
       category: "AI Integration",
-      description: "An Agentic AI Chatbot using Streamlit, FastAPI and OpenAI API, GrokAPI",
+      description: "Generative AI Powered Job Recommendation System to help out job seekers in their job search journey.",
       image: "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
-      link: "https://github.com/HamzaaAftab/ai-chatbot-with-streamlit-fastAPI-langGraph",
-      technologies: ["Python", "OpenAI API", "FastAPI", "Streamlit", "Grok"]
+      link: "https://github.com/HamzaaAftab/ai-powered-job-recommendation-system",
+      technologies: ["Python", "OpenAI API", "Apify", "Streamlit", "Grok"]
     },
     {
       title: "Music School Platform",
